@@ -1,4 +1,19 @@
-# NFS HD Reflections  
+# NFS HD Reflections (Fork)
+
+> **Fork Note**: This repository is a fork of [NFS HD Reflections by Aero_](https://github.com/AeroWidescreen/NFSHDReflections) adding full support for **Need for Speed: Hot Pursuit 2 (PC)** (**NFSHP2HDReflections**).
+
+### What's New in this Fork (Need for Speed: Hot Pursuit 2)
+- **High-Definition Vehicle Reflections**: Increases the resolution of dynamic vehicle cubemap faces and the composite environment spheremap from the vanilla 128x128 up to 512x512, 1024x1024, 2048x2048, etc.
+- **Dynamic Projection Matrix Scaling**: Dynamically scales the 2D orthographic projection matrix for spheremap composition according to the selected resolution, ensuring reflections cover the entire vehicle body seamlessly without distortion or clipping.
+- **Independent Resolution Controls**: Allows setting `CubemapRes` and `EnviromapRes` independently, or using resolution multipliers (`CubemapScale`, `EnviromapScale`).
+- **AutoRes**: Automatically selects optimal reflection resolution based on your monitor's display resolution (512 for 1080p, 1024 for 1440p, 2048 for 4K).
+- **Force Real-Time Dynamic LOD**: Forces dynamic cubemap faces to render every frame regardless of the in-game graphics detail setting (`ImproveReflectionLOD`).
+- **Vehicle Reflection Brightness**: Allows fine-tuning reflection brightness/intensity (`VehicleReflectionBrightness`).
+- **Full Compatibility**: Compatible with retail v242 / No-CD `NFSHP2.exe` (2.82 MB), Widescreen Fix (`HP2WSFix.asi`), and Ultimate ASI Loader (`d3d8.dll`).
+
+---
+
+## Original Mod Information (by Aero_)
 
 ## Download  
 https://nfsmods.xyz/mod/3363  
